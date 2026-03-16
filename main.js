@@ -48,4 +48,5 @@ restAll.addEventListener("click", () => {
   compScore.textContent = 0;
   userResult.textContent = "user choice";
   compResult.textContent = "comp choice";
+  document.querySelector("#show-result").textContent = " ";
 });
